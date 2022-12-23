@@ -1,0 +1,116 @@
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: cornflowerblue;
+    height: 60px;
+    
+}
+
+.navbar h3 {
+    margin-left: 30px;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.navbar button {
+    margin-right: 30px;
+    border-radius: 10px;
+}
+
+
+.figure{
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    justify-content:space-between;
+    margin-left: 30px;
+    margin-top: 50px;
+    background:white;
+}
+
+
+  .ilike {
+      background-color: red;
+
+    }
+
+
+
+.figure>.image{
+    border: groove;
+    padding: 10px;
+    
+ 
+ }
+
+.legende{
+    display:flex;
+    flex-direction: column;
+}
+
+.legende>h3,h4 {
+    display: flex;
+    justify-content: center;
+}
+
+.compteur {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.compteur>.inputqte {
+    width: 35px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.like{
+ 
+    margin-left: 250px;
+    
+}
+
+
+.figure>.image{
+    border: groove;
+    padding: 10px;
+    
+}
+
+
+.legende{
+    display:flex;
+    flex-direction: column;
+}
+
+.legende>h3,h4 {
+    display: flex;
+    justify-content: center;
+}
+
+.figure>.image{
+    border: groove;
+   padding: 10px;
+    
+}
+
+.legende>h3,h4 {
+    display: flex;
+    justify-content: center;
+}
+
+
+.afficheur {
+    display: flex;
+    margin-top: 35px;
+    justify-content:flex-end;
+    margin-right: 45px;
+}
+
+.afficheur h2 {
+ margin-right: 20px;
+}
